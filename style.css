@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+:root {
+  --primary-color: #141d2b;
+  --secondary-color: #1a2332;
+  --accent-color: #9fef00;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  background-color: var(--primary-color);
+  color: white;
+  line-height: 1.5;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+.box {
+  background-color: var(--secondary-color);
+  margin: 40px 10px 10px 20px;
+  border-radius: 15px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4rem;
+  color: var(--accent-color);
+}
+
+h3 {
+  color: var(--accent-color);
+}
+
+p {
+  font-size: 2rem;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 40px 10px 10px 20px;
+  border-radius: 15px;
+  color: white;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  width: 976px;
+  height: 549;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+#img-caption {
+  margin: 20px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+#tribute-info {
+  color: white;
+  padding: 10px;
+  text-align: justify;
+  line-height: 3;
+}
+
+#heading {
+  font-size: 2rem;
+}
+
+#tribute-link {
+  color: rgb(165, 49, 165);
+}
+
+#tribute-link:hover {
+  color: white;
+}
+#tribute-link:visited {
+  color: rgb(94, 74, 228);
+}
