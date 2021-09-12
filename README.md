@@ -8,5 +8,5 @@ A Tribute to the Living Legend Elon Musk
 ## Contact
 
 - Website [talhamehar.tk](https://{talhamehar.tk})
-- GitHub [@your-username](https://{github.com/talhamehar007})
-- Twitter [@your-twitter](https://{twitter.com/talhamehar007})
+- GitHub [@talhamehar007](https://{github.com/talhamehar007})
+- Twitter [@talhamehar007](https://{twitter.com/talhamehar007})
